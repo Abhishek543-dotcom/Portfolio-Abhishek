@@ -18,11 +18,11 @@
                 <li><a href="{{ url_for('contact') }}">Contact Me</a></li>
             </ul>
         </nav>
-        <img src="images/sign.png" alt="Your Sign" class="sign-logo">
+        <img src="{{ url_for('static', filename='images/sign.png') }}" alt="Your Sign" class="sign-logo">
     </header>
     <main>
         <section class="experience-section">
-            <img src="images\experience.svg" alt="Experience Illustration" class="experience-illustration">
+            <img src="{{ url_for('static', filename='images/experience.svg') }}" alt="Experience Illustration" class="experience-illustration">
             <div class="experience-content">
                 <h1>Experience</h1>
                 <h2>Work, Internship and Volunteership</h2>

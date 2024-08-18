@@ -18,15 +18,15 @@
                 <li><a href="{{ url_for('contact') }}">Contact Me</a></li>
             </ul>
         </nav>
-        <img src="images/sign.png" alt="Your Sign" class="sign-logo">
+        <img src="{{ url_for('static', filename='images/sign.png ') }}" alt="Your Sign" class="sign-logo">
     </header>
     <section class="experience-section">
-        <img src="images/education.svg" alt="Experience Illustration" class="experience-illustration">
+        <img src=" {{ url_for('static', filename='images/education.svg') }}" alt="Experience Illustration" class="experience-illustration">
         <div class="experience-content">
             <h1>Education</h1>
             <h2>Basic Qualification and Certifications</h2>
             <div class="container">
-                <img src="images/hackerrank.svg" alt="Logo 1" class="logo">
+                <img src="{{ url_for('static', filename='images/hackerrank.svg') }} " alt="Logo 1" class="logo">
                 <img src="https://img.icons8.com/?size=100&id=9L16NypUzu38&format=png&color=000000" alt="Logo 2" class="logo">
             </div>
         </div>
@@ -84,25 +84,25 @@
         
         <div class="certification-grid">
             <div class="certification-card">
-                <a href="https://www.hackerrank.com/certificates/1027f0640bed"><img src="images/hackerrank.svg" alt="Stanford Logo">
+                <a href="https://www.hackerrank.com/certificates/1027f0640bed"><img src=" {{ url_for('static', filename='images/hackerrank.svg') }}" alt="Stanford Logo">
                 <p>Advance Sql</p>
                 <span>click to validate</span></a>
             </div>
             
             <div class="certification-card">
-                <a href="https://www.credly.com/badges/98654b17-7f74-49a1-b7c7-74e81618bb1f/linked_in_profile"><img src="images\icons8-aws-48.png" alt="Deep Learning Logo">
+                <a href="https://www.credly.com/badges/98654b17-7f74-49a1-b7c7-74e81618bb1f/linked_in_profile"><img src="{{ url_for('static', filename='images\icons8-aws-48.png') }}" alt="Deep Learning Logo">
                 <p>AWS Cloud Quest: Cloud Practitioner</p>
                 <span>click to validate</span></a>
             </div>
             
             <div class="certification-card">
-                <a href="https://drive.google.com/file/d/1XEov2h59XrjaHGHJ8Aj3DhR5FR0-0rxd/view"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" alt="Google Logo">
+                <a href="https://drive.google.com/file/d/1XEov2h59XrjaHGHJ8Aj3DhR5FR0-0rxd/view"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg " alt="Google Logo">
                 <p>CSX Cybersecurity Fundamentals Certificate (CSXF)</p>
                 <span>click to validate</span></a>
             </div>
             
             <div class="certification-card">
-                <a href="https://drive.google.com/file/d/1LwgESPJiogf9zXj82idukvBH3sCTVJ0N/view"><img src="images\7123025_logo_google_g_icon.svg" alt="IBM Logo">
+                <a href="https://drive.google.com/file/d/1LwgESPJiogf9zXj82idukvBH3sCTVJ0N/view"><img src=" {{ url_for('static', filename='images\7123025_logo_google_g_icon.svg') }}" alt="IBM Logo">
                 <p>Google Advance Analytics </p>
                 <span>click to validate</span></a>
             </div>
