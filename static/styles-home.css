@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* magic white background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f8ff;
+    padding: 20px;
+    position: relative; /* Ensure relative positioning for the logo */
+    border: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top:10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin-top:10px;
+}
+
+.sign-logo {
+    position: absolute;
+    margin-top: 20px;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.github-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    text-decoration:none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+.github-button:hover {
+    background-color: #005cbf; /* Darker blue on hover */
+}
+  
+.github-button img {
+    margin-right: 5px;
+    vertical-align: middle;
+  
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    text-align: center; /* Center footer text */
+    padding: 20px; /* Add some padding */
+}

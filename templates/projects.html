@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Tiwari</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles-project.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('services') }}">Services</a></li>
+                <li><a href="{{ url_for('education') }}">Education</a></li>
+                <li><a href="{{ url_for('experience') }}">Experience</a></li>
+                <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact Me</a></li>
+            </ul>
+        </nav>
+        <img src="images/sign.png" alt="Your Sign" class="sign-logo">
+    </header>
+    <section class="experience-section">
+        <img src="images\projects_image.svg" alt="Experience Illustration" class="experience-illustration">
+        <div class="experience-content">
+            <h1>Projects</h1>
+            <p>My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.</p>
+        </div>
+    </section>
+    <div class="certifications-container"> 
+        <div class="certification-grid">
+            <div class="certification-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Stanford_Cardinal_logo.svg/1200px-Stanford_Cardinal_logo.svg.png" alt="Stanford Logo">
+                <p>Machine Learning</p>
+                <span>- Andrew Ng</span>
+            </div>
+            
+            <div class="certification-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Deep_Learning_Logo.png" alt="Deep Learning Logo">
+                <p>Deep Learning</p>
+                <span>- Andrew Ng</span>
+            </div>
+            
+            <div class="certification-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Google_2015_logo.svg" alt="Google Logo">
+                <p>ML on GCP</p>
+                <span>- GCP Training</span>
+            </div>
+            
+            <div class="certification-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo">
+                <p>Data Science</p>
+                <span>- Alex Aklson</span>
+            </div>
+            
+            <div class="certification-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo">
+                <p>Big Data</p>
+                <span>- Kim Akers</span>
+            </div>
+            
+            <div class="certification-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo">
+                <p>Advanced Data Science</p>
+                <span>- Romeo Kienzler</span>
+            </div>
+            
+            <div class="certification-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Google_2015_logo.svg" alt="Google Logo">
+                <p>Advanced ML on GCP</p>
+                <span>- GCP Training</span>
+            </div>
+            
+            <div class="certification-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TensorFlowLogo.png/800px-TensorFlowLogo.png" alt="Tensorflow Logo">
+                <p>DL on Tensorflow</p>
+                <span>- Laurence Moroney</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Abhishek Tiwari. All rights reserved.</p>
+    </footer>        
+</body>
+</html>
