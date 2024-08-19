@@ -18,62 +18,51 @@
                 <li><a href="{{ url_for('contact') }}">Contact Me</a></li>
             </ul>
         </nav>
-        <img src="{{ url_for('static', filename='images/sign.png ') }}" alt="Your Sign" class="sign-logo">
+        <img src="{{ url_for('static', filename='images/sign.png') }}" alt="Your Sign" class="sign-logo">
     </header>
     <section class="experience-section">
-        <img src=" {{ url_for('static', filename='images/education.svg') }}" alt="Experience Illustration" class="experience-illustration">
+        <img src="{{ url_for('static', filename='images/education.svg') }}" alt="Experience Illustration" class="experience-illustration">
         <div class="experience-content">
             <h1>Education</h1>
             <h2>Basic Qualification and Certifications</h2>
             <div class="container">
-                <img src="{{ url_for('static', filename='images/hackerrank.svg') }} " alt="Logo 1" class="logo">
-                <img src="https://img.icons8.com/?size=100&id=9L16NypUzu38&format=png&color=000000" alt="Logo 2" class="logo">
+                <img src="{{ url_for('static', filename='images/hackerrank.svg') }}" alt="Hackerrank Logo" class="logo">
+                <img src="https://img.icons8.com/?size=100&id=9L16NypUzu38&format=png&color=000000" alt="Icons8 Logo" class="logo">
             </div>
         </div>
     </section>
-    <!--
-    <main>
-        <img src="images/education.svg" alt="Graduation Cap" class="graduation-cap">
-        <h1>Education</h1>
-        <h2>Basic Qualification and Certifications</h2>
-        <div class="container">
-            <img src="images/hackerrank.svg" alt="Logo 1" class="logo">
-            <img src="https://img.icons8.com/?size=100&id=9L16NypUzu38&format=png&color=000000" alt="Logo 2" class="logo">
-        </div>
-    </main>
-    -->
     <div class="degrees-container">
         <h2>Degrees Received</h2>
-        
+
         <div class="degree">
             <div class="degree-logo">
-                <img src="https://2jt2bb.n3cdn1.secureserver.net/wp-content/uploads/2019/03/1200px-BITS_Pilani-Logo.svg.png">
+                <img src="https://2jt2bb.n3cdn1.secureserver.net/wp-content/uploads/2019/03/1200px-BITS_Pilani-Logo.svg.png" alt="BITS Pilani Logo">
             </div>
             <div class="degree-details">
                 <h3>Birla Institute of Technology And Science, Pilani (BITS Pilani)</h3>
                 <p>M.Tech. in Software Engineering</p>
                 <p>2021 - 2025</p>
                 <ul>
-                    <li>I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.</li>
+                    <li>I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI, etc.</li>
                     <li>Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing, and Full Stack Development.</li>
                     <li>I was selected for Merit cum Means Scholarship, which is given to the top 10% of students in college. I have received an award from the respected director for consistently best performance in academics.</li>
                 </ul>
                 <a href="https://www.bits-pilani.ac.in/" class="visit-website" target="_blank">Visit Website</a>
             </div>
         </div>
-        
+
         <div class="degree">
             <div class="degree-logo">
-                <img src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/tetzlpsfvbdsvn9pnb7i" alt="Indiana University Bloomington Logo">
+                <img src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/tetzlpsfvbdsvn9pnb7i" alt="Thakur College Logo">
             </div>
             <div class="degree-details">
                 <h3>Thakur College of Science and Commerce, Mumbai</h3>
                 <p>Bachelors in Computer Science</p>
                 <p>2018 - 2021</p>
                 <ul>
-                    <li>I have taken a variety of courses related to Artificial Intelligence, which correspond to Explainable AI, Graph Machine Learning, Computer Vision, etc.</li>
-                    <li>Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.</li>
-                    <li>During my time at university, I was also associated with the multimedia department. As part of it, I have worked on some documentary films and interviews.</li>
+                    <li>I have taken a variety of courses related to Artificial Intelligence, including Explainable AI, Graph Machine Learning, and Computer Vision.</li>
+                    <li>I have also done research assistantship work on creating new algorithms in Graph ML and Network Science.</li>
+                    <li>During my time at university, I was associated with the multimedia department, where I worked on documentary films and interviews.</li>
                 </ul>
                 <a href="https://www.tcsc.edu.in/" class="visit-website" target="_blank">Visit Website</a>
             </div>
@@ -81,59 +70,67 @@
     </div>
     <div class="certifications-container">
         <h2>Certifications</h2>
-        
+
         <div class="certification-grid">
             <div class="certification-card">
-                <a href="https://www.hackerrank.com/certificates/1027f0640bed"><img src=" {{ url_for('static', filename='images/hackerrank.svg') }}" alt="Stanford Logo">
-                <p>Advance Sql</p>
-                <span>click to validate</span></a>
+                <a href="https://www.hackerrank.com/certificates/1027f0640bed"><img src="{{ url_for('static', filename='images/hackerrank.svg') }}" alt="Hackerrank Logo">
+                <p>Advanced SQL</p>
+                <span>Click to validate</span></a>
             </div>
-            
+
             <div class="certification-card">
-                <a href="https://www.credly.com/badges/98654b17-7f74-49a1-b7c7-74e81618bb1f/linked_in_profile"><img src="{{ url_for('static', filename='images\icons8-aws-48.png') }}" alt="Deep Learning Logo">
-                <p>AWS Cloud Quest: Cloud Practitioner</p>
-                <span>click to validate</span></a>
+                <a href="https://www.credly.com/badges/98654b17-7f74-49a1-b7c7-74e81618bb1f/linked_in_profile">
+                    <img src="{{ url_for('static', filename='images/icons8-aws-48.png') }}" alt="AWS Cloud Quest Logo">
+                    <p>AWS Cloud Quest: Cloud Practitioner</p>
+                    <span>Click to validate</span>
+                </a>
             </div>
-            
+
             <div class="certification-card">
-                <a href="https://drive.google.com/file/d/1XEov2h59XrjaHGHJ8Aj3DhR5FR0-0rxd/view"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg " alt="Google Logo">
-                <p>CSX Cybersecurity Fundamentals Certificate (CSXF)</p>
-                <span>click to validate</span></a>
+                <a href="https://drive.google.com/file/d/1XEov2h59XrjaHGHJ8Aj3DhR5FR0-0rxd/view">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" alt="Cisco Logo">
+                    <p>CSX Cybersecurity Fundamentals Certificate (CSXF)</p>
+                    <span>Click to validate</span>
+                </a>
             </div>
-            
+
             <div class="certification-card">
-                <a href="https://drive.google.com/file/d/1LwgESPJiogf9zXj82idukvBH3sCTVJ0N/view"><img src=" {{ url_for('static', filename='images\7123025_logo_google_g_icon.svg') }}" alt="IBM Logo">
-                <p>Google Advance Analytics </p>
-                <span>click to validate</span></a>
+                <a href="https://drive.google.com/file/d/1LwgESPJiogf9zXj82idukvBH3sCTVJ0N/view">
+                    <img src="{{ url_for('static', filename='images/7123025_logo_google_g_icon.svg') }}" alt="Google Analytics Logo">
+                    <p>Google Advanced Analytics</p>
+                    <span>Click to validate</span>
+                </a>
             </div>
-            
+
             <div class="certification-card">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo">
                 <p>Big Data</p>
-                <span>click to validate</span>
+                <span>Click to validate</span>
             </div>
-            
+
             <div class="certification-card">
-                <a href="https://drive.google.com/file/d/1_1Dz6R5ye0v2P9CPznToeQl81UPgJrHv/view?usp=drive_link"><img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg" alt="IBM Logo">
-                <p>Machine learning with Python </p>
-                <span>click to validate</span></a>
+                <a href="https://drive.google.com/file/d/1_1Dz6R5ye0v2P9CPznToeQl81UPgJrHv/view?usp=drive_link">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg" alt="Coursera Logo">
+                    <p>Machine Learning with Python</p>
+                    <span>Click to validate</span>
+                </a>
             </div>
-            
+            <!--
             <div class="certification-card">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Google_2015_logo.svg" alt="Google Logo">
                 <p>Advanced ML on GCP</p>
                 <span>- GCP Training</span>
             </div>
-            
+
             <div class="certification-card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TensorFlowLogo.png/800px-TensorFlowLogo.png" alt="Tensorflow Logo">
-                <p>DL on Tensorflow</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TensorFlowLogo.png/800px-TensorFlowLogo.png" alt="TensorFlow Logo">
+                <p>DL on TensorFlow</p>
                 <span>- Laurence Moroney</span>
             </div>
         </div>
-    </div>
+    </div>-->
     <footer>
         <p>&copy; 2024 Abhishek Tiwari. All rights reserved.</p>
-    </footer>        
+    </footer>
 </body>
 </html>
