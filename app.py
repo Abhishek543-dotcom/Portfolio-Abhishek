@@ -39,7 +39,7 @@ def playground():
     return render_template('playground.html')
 
 
-openai.api_key = ''
+
 
 
 @app.route('/chat', methods=['POST'])
