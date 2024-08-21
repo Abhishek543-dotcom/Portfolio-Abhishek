@@ -6,10 +6,21 @@ body {
 }
 
 header {
-    background-color: #f0f8ff;
-    padding: 20px;
-    position: relative; /* Ensure relative positioning for the logo */
-    border: none;
+    background-color: #87baf0;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+}
+nav ul li a:hover {
+    color: #ffffff;
+}
+.sign-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: auto;
 }
 
 nav ul {
@@ -29,16 +40,6 @@ nav ul li a {
     color: #333;
     font-weight: bold;
 }
-
-
-.sign-logo {
-    position: absolute;
-    top: 20px; /* Adjust as needed */
-    left: 20px; /* Adjust as needed */
-    width: 100px; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
-}
-
 
 footer p {
     margin: 0;

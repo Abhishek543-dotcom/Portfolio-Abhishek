@@ -4,12 +4,15 @@ body {
     margin: 0;
     padding: 0;
 }
-
+nav ul li a:hover {
+    color: #ffffff;
+}
 header {
-    background-color: #f0f8ff;
-    padding: 10px;
-    position: relative; /* Ensure relative positioning for the logo */
-    border: none;
+    background-color: #87baf0;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+
 }
 
 nav ul {
@@ -41,11 +44,10 @@ nav ul li a {
 
 .sign-logo {
     position: absolute;
-    margin-top: 20px;
-    top: 10px; /* Adjust as needed */
-    left: 10px; /* Adjust as needed */
-    width: 100px; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: auto;
 }
 
 .github-button {
