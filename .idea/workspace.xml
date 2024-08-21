@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="31d2506d-6ad8-4b17-a44e-607431a30210" name="Changes" comment="initial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles-contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles-contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles-education.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles-education.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles-experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles-experience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles-home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles-home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles-project.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles-project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles-services.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles-services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/script-playground.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script-playground.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/playground.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/playground.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724254111157</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial">
+      <option name="closed" value="true" />
+      <created>1724257772040</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724257772040</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

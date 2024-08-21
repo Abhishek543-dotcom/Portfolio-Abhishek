@@ -7,6 +7,22 @@
     <title>Abhishek Tiwari</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles-contact.css') }}">
     <link rel="script" href="{{ url_for('static', filename='script-playground.js') }}">
+    <script>
+    function sendMessage() {
+        const userInput = document.getElementById('userInput').value;
+        fetch('/chat', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message: userInput }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('chatResponses').innerHTML += '<p>' + data.response + '</p>';
+        });
+    }
+</script>
 </head>
 
 <body>
@@ -23,14 +39,12 @@
         </nav>
         <img src="images/sign.png" alt="Your Sign" class="sign-logo">
     </header>
-    <div id="iframe-container" class="iframe-container">
-        <div class="iframe-header">
-            <span class="close-button" onclick="closeIframe()">&#10005;</span>
-        </div>
-        <iframe
-            src="https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1671714757598811/2581966119829112/8370016137563581/latest.html"
-            id="playground-iframe"></iframe>
+    <div id="chatbox">
+    <input type="text" id="userInput" placeholder="Type your message here..." />
+    <button onclick="sendMessage()">Send</button>
+    <div id="chatResponses"></div>
     </div>
+
     <footer>
         <p>&copy; 2024 Abhishek Tiwari. All rights reserved.</p>
     </footer>
